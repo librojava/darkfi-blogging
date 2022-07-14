@@ -3533,6 +3533,7 @@ height: 16px;
 .content-img{
  width: 375px;
  height: 249px;
+ margin-top: -18px;
 }
 
 .article-image{
@@ -3577,6 +3578,7 @@ font-size: 40px;
 line-height: 110%;
 border-left: 6px solid #36FFFF;
 padding-left: 10px;
+height: auto;
 }
 
 .article .list{
@@ -3909,6 +3911,6 @@ table td{
   
 .go-to-article .arrow2{
   margin-right: 1px;
-  margin-left: 0px;
+  margin-left: 40px;
 }
 }
