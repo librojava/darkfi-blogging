@@ -3537,6 +3537,24 @@ height: 16px;
 .article-image{
  width: 375px;
 }
+  
+  .slideshow{
+    width: 375px;
+    height: 350px;
+  }
+  
+  .slideshow::after{
+    width: 375px;
+    display: block;
+    position: absolute;
+    height: 350px;
+    left: 0px;
+    top: 0px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 44.58%, #090909 91.98%);
+    content: '';
+}
+
+    
 
 .article-image .text{
  display: flex;
@@ -3858,7 +3876,7 @@ table td{
  font-size: 12px;
  line-height: 103%;
  color: #69727C;
- padding: 19px 17px 19px 58.5px;
+ padding: 29px 17px 19px 58.5px;
 }
 
 .go-to-article .previous-article p{
@@ -3870,7 +3888,25 @@ table td{
  font-size: 12px;
  line-height: 103%;
  color: #69727C;
- padding: 19px 0px 19px 17px;
+ padding: 29px 0px 19px 17px;
+ margin-left: -18px;
+  }
+  
+.go-to-article .right1{
+  width: 10px;
+  height: 10px;
+ }
+  
+.go-to-article .arrow3{
+    margin-left: 6px;
 }
-
+  
+.go-to-article .right{
+  width: 10px;
+  height: 10px;
+  }
+  
+.go-to-article .arrow2{
+  margin-right: 1px;
+}
 }
