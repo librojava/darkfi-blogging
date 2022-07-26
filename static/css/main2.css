@@ -2575,9 +2575,7 @@ header{
 }
 .menu-items {
   background:#000;
-  /*height: 100vh;*/
   width: 100%;
-  transform: translate(150%);
   display: flex;
   flex-direction: column;
   margin-left:0;
